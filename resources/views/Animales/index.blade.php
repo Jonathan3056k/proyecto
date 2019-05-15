@@ -10,29 +10,7 @@
     </div>
     <div class="row justify-content-md-end">
         <div class="col-10">
-            <table border="1"> <!--Crear tabla -->
-                <tr><!--fila -->
-
-                    <td id="text"><STRONG>Nombre</STRONG></td>
-                    <td id="text"><STRONG>Apellido Paterno</STRONG></td>
-                    <td id="text"><STRONG>Apellido Materno</STRONG></td>
-                    <td id="text "><STRONG>Semestre</STRONG></td>
-                </tr>
-                <?php
-                $sql1='select ';  /* consulta*/
-                while($mostrar1=mysqli_fetch_array($sql1))    { /* mostrarlo*/
-                ?>
-                <tr>
-                    <td id="text3"><?php echo $mostrar1['nom'] ?></td>
-                    <td id="text3"><?php echo $mostrar1['ap'] ?></td>
-                    <td id="text3"><?php echo $mostrar1['am'] ?></td>
-                    <td id="text3"><?php echo $mostrar1['nom_s'] ?></td>
-                </tr>
-                <?php } ?>
-            </table>
-        </div>
-
-            <!--<table class="table">
+            <table class="table">
                 <thead>
                 <tr>
                     <th></th>
@@ -49,7 +27,10 @@
                 <tbody>
 
                 </tbody>
-            </table>-->
+            </table>
+        </div>
+
+            <!---->
         </div>
     </div>
     <div class="justify-content-center">
