@@ -7,6 +7,8 @@ use App\Dispositivos;
 use App\Ganaderos;
 use App\Sexos;
 use App\Tganado;
+use App\User;
+use App\Usuarios;
 use Illuminate\Http\Request;
 
 class AnimalesController extends Controller
@@ -33,8 +35,8 @@ class AnimalesController extends Controller
         $tganados=Tganado::all();
         $sexos=Sexos::all();
         $dispositivos=Dispositivos::all();
-        $ganaderos=Ganaderos::all();
-        return view("Animales.create",compact('dispositivos','sexos','tganados','ganaderos'));
+        $usuarios=User::all();
+        return view("Animales.create",compact('dispositivos','sexos','tganados','usuarios'));
     }
 
     /**
@@ -47,7 +49,6 @@ class AnimalesController extends Controller
     {
         //
         Animales::create($request->all());
-
         return redirect("animales");
     }
 
@@ -70,9 +71,13 @@ class AnimalesController extends Controller
          * @return \Illuminate\Http\Response
          */
         public
-        function edit(Animales $animales)
+        function edit(Animales $animale)
         {
-
+            $tganados=Tganado::all();
+            $sexos=Sexos::all();
+            $dispositivos=Dispositivos::all();
+            $usuarios=User::all();
+            return view("Animales.edit",compact('animale','dispositivos','sexos','tganados','usuarios'));
         }
 
         /**
@@ -97,9 +102,10 @@ class AnimalesController extends Controller
          * @return \Illuminate\Http\Response
          */
         public
-        function destroy(Animales $animal)
+        function destroy(Animales $animale)
         {
-
+            $animale->delete();
+            return redirect("animales");
         }
 
 }

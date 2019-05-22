@@ -13,15 +13,9 @@
 
 
 Route::get('/', function () {
-    return view('Login.index');
-});
-Route::get('/regresar', function () {
-    return view('Login.index');
+    return view('Inicio.layaut');
 });
 
-Route::get('/persons', function () {
-    return view('peple.index');
-});
 
 Route::resources([
     'dispositivos'=>'DispositivosController',
@@ -29,3 +23,7 @@ Route::resources([
     'tganado'=>'TganadoController',
     'peple'=>'UsuariosController'
 ]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

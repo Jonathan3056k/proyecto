@@ -1,4 +1,4 @@
-@extends("Inicio.layaut")
+@extends("Inicio.lau")
 @section("title","Dispositivos")
 @section("content")
     <style>
@@ -25,6 +25,7 @@
                     <tr>
                         <td>{{$dispositivo->id_dispositivo}}</td>
                         <td>{{$dispositivo->clave_dis}}</td>
+
                         <td>
                             <form action="{{route("dispositivos.destroy",$dispositivo->id_dispositivo)}}" method="post">
                                 @csrf
@@ -32,6 +33,7 @@
                                 <button class="btn btn-outline-danger"><i class="far fa-trash-alt"></i></button>
                             </form>
                         </td>
+
                         <td>
                             <a href="{{url("dispositivos",$dispositivo->id_dispositivo)}}/edit" class="btn btn-outline-success"><i class="far fa-edit"></i> </a>
                         </td>

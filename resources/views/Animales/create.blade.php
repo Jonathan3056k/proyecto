@@ -1,4 +1,4 @@
-@extends("Inicio.layaut")
+@extends("Inicio.lau")
 @section("title","Animales")
 
 @section("content")
@@ -13,10 +13,10 @@
             @csrf
 
             <div class="form-group">
-                <label for="Ganadero">Ganadero</label>
-                <select name="id_ganadero" id="id_ganadero">
-                    @foreach($ganaderos as $ganadero)
-                        <option value="{{$ganadero->id_ganadero}}" >{{$ganadero->usuario}}</option>
+                <label for="Ganadero">usuario</label>
+                <select name="id_user" id="id_user">
+                    @foreach($usuarios as $usuario)
+                        <option value="{{$usuario->id_user}}" >{{$usuario->name}}</option>
                     @endforeach
                 </select>
             </div>
@@ -63,7 +63,6 @@
                 <input type="number" id="edad" name="edad" class="form-text"  placeholder="Años">
             </div>
 
-            <button type="submit" class="btn-danger"><i class="fa fa-times"> Cancelar</i></button>
             <button type="submit" class="btn btn-group-sm"><i class="fa fa-save "> Guardar</i></button>
         </form>
     </div>
