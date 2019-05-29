@@ -1,15 +1,13 @@
 @extends("Inicio.lau")
 @section("title","Dispositivos")
 @section("content")
-    <style>
-
-    </style>
     <div class="row justify-content-md-center">
-        <div class="">
-            <div class="col">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-footer text-center">{{ __('Dispositivos Adquiridos') }}</div>
+                </div>
                 <a class="btn btn-success" href="{{url("dispositivos/create")}}"><i class="fa fa-plus" > Dispositivo</i></a>
             </div>
-        </div>
         <div class="col-8">
             <table class="table">
                 <thead>
@@ -17,7 +15,7 @@
                     <th>Id</th>
                     <th>Dispositivo</th>
                     <th >Eliminar</th>
-                    <th>Modificar</th>
+
                 </tr>
                 </thead>
                 <tbody>
@@ -34,10 +32,6 @@
                             </form>
                         </td>
 
-                        <td>
-                            <a href="{{url("dispositivos",$dispositivo->id_dispositivo)}}/edit" class="btn btn-outline-success"><i class="far fa-edit"></i> </a>
-                        </td>
-                    </tr>
                 @endforeach
                 </tbody>
             </table>

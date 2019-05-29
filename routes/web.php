@@ -20,8 +20,7 @@ Route::get('/', function () {
 Route::resources([
     'dispositivos'=>'DispositivosController',
     'animales'=>'AnimalesController',
-    'tganado'=>'TganadoController',
-    'peple'=>'UsuariosController'
+    'tganado'=>'TganadoController'
 ]);
 
 Auth::routes();

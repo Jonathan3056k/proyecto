@@ -2,7 +2,11 @@
 @section("title","Agergar dispositivos")
 @section("content")
     <div class="row justify-content-md-center">
+
         <div class="col">
+            <div class="card">
+                <div class="card-footer text-center">{{ __('Registrar Nuevo Dispositivo') }}</div>
+            </div>
             <a class="btn btn-success" href="{{url("dispositivos")}}"><i class="fa fa-backspace">Regresar</i></a>
         </div>
     </div>

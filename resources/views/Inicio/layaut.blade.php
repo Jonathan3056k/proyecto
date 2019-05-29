@@ -48,9 +48,13 @@
                 </li>
             @endif
         @else
-        <li class="nav-item"><a href="{{url("animales")}}" class="nav-link text-white"><i class="fa fa-horse"></i> Animales</a></li>
-        <li class="nav-item"><a href="{{url("dispositivos")}}" class="nav-link text-white"><i class="fa fa-satellite-dish"></i> Dispositivos</a></li>
-        <li class="nav-item"><a href="{{url("tganado")}}" class="nav-link text-white"><i class="fa fa-horse-head"></i> Tipo Ganados</a></li>
+            @if(Auth::user()->id_tipousuario==2||Auth::user()->id_tipousuario==3)
+            <li class="nav-item"><a href="{{url("animales")}}" class="nav-link text-white"><i class="fa fa-horse"></i> Animales</a></li>
+            @endif
+            @if(Auth::user()->id_tipousuario==2)
+                <li class="nav-item"><a href="{{url("dispositivos")}}" class="nav-link text-white"><i class="fa fa-satellite-dish"></i> Dispositivos</a></li>
+                <li class="nav-item"><a href="{{url("tganado")}}" class="nav-link text-white"><i class="fa fa-horse-head"></i> Tipo Ganados</a></li>
+            @endif
             <li class="nav-item dropdown">
                 <a id="navbarDropdown" class="nav-link dropdown-toggle text-white " href="#" role="button"
                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

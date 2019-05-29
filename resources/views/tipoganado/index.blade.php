@@ -3,6 +3,9 @@
 @section("content")
     <div class="row justify-content-md-center">
         <div class="col">
+            <div class="card">
+                <div class="card-footer text-center">{{ __('Tipos de Ganado') }}</div>
+            </div>
             <a class="btn btn-success" href="{{url("tganado/create")}}"><i class="fa fa-plus"> Agregar</i></a>
         </div>
     </div>
@@ -12,7 +15,7 @@
                 <thead>
                 <tr>
                     <th>Id</th>
-                    <th>Dispositivo</th>
+                    <th>Tipo de Ganado</th>
                     <th>Eliminar</th>
                     <th>Modificar</th>
                 </tr>

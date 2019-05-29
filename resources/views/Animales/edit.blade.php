@@ -10,10 +10,13 @@
     <div class="row justify-content-md-center">
         <div class="col-8">
             <form action="{{route("animales.update",$animale->id_animal)}}" method="post">
+                <div class="card">
+                    <div class="card-header text-center">{{ __('Actualizar datos de animales') }}</div>
+                </div>
                 @csrf
                 @method("PUT")
                 <div class="form-group">
-                    <label for="id_user">Ganadero</label>
+                    <label for="id_user">Usuario</label>
                     <select name="id_user" id="id_user">
                         @foreach($usuarios as $usuario)
                             <option value="{{$usuario->id_user}}" {{$animale->id_user==$usuario->id_user?"selected":""}}>{{$usuario->name}}</option>
@@ -50,12 +53,12 @@
 
                 <div class="form-group">
                     <label for="peso">Peso</label>
-                    <input type="text"  value="{{$animale->peso}}"id="peso" name="peso" class="form-control"  placeholder="peso">
+                    <input type="text"  value="{{$animale->peso}}"id="peso" name="peso" class="form-text"  placeholder="peso">
                 </div>
 
                 <div class="form-group">
                     <label for="edad">Edad</label>
-                    <input type="text" value="{{$animale->edad}}" id="edad" name="edad" class="form-control"  placeholder="edad">
+                    <input type="date" value="{{$animale->edad}}" id="edad" name="edad" class="form-text"  placeholder="edad">
                 </div>
 
 

@@ -5,6 +5,9 @@
 
     <div class="row justify-content-md-end">
         <div class="col">
+            <div class="card">
+                <div class="card-footer text-center">{{ __('Ganado') }}</div>
+            </div>
             <a class="btn btn-success" href="{{url("animales/create")}}"><i class="fa fa-plus"></i> Registrar Nuevo</a>
         </div>
     </div>

@@ -3,17 +3,20 @@
 
 @section("content")
     <div class="row justify-content-md-center">
-
-</div>
-
+        <div class="col">
+            <a class="btn btn-success" href="{{url("animales")}}"><i class="fa fa-backspace">Regresar</i></a>
+        </div>
+    </div>
 <div class="row justify-content-md-center">
     <div class="col-8">
         <form action="{{url("animales")}}" method="post">
-            <h1 class="bg-info text-white text-center text-">Registro de animales</h1>
+            <div class="card">
+                <div class="card-header text-center">{{ __('Registrar Animales') }}</div>
+            </div>
             @csrf
 
             <div class="form-group">
-                <label for="Ganadero">usuario</label>
+                <label for="Ganadero">Usuario</label>
                 <select name="id_user" id="id_user">
                     @foreach($usuarios as $usuario)
                         <option value="{{$usuario->id_user}}" >{{$usuario->name}}</option>
@@ -59,10 +62,9 @@
             </div>
 
             <div class="form-group">
-                <label for="edad">Edad</label>
-                <input type="number" id="edad" name="edad" class="form-text"  placeholder="Años">
+                <label for="edad">Fecha de Nacimiento</label>
+                <input type="date" id="edad" name="edad" class="form-text"  placeholder="">
             </div>
-
             <button type="submit" class="btn btn-group-sm"><i class="fa fa-save "> Guardar</i></button>
         </form>
     </div>

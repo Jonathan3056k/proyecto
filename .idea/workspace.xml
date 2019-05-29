@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c0e2884-6eca-4e6d-8888-f2028473c047" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Proyecto-Localizador" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnimalesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnimalesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Animales/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Animales/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Animales/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Animales/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Animales/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Animales/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Dispositivos/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Dispositivos/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Dispositivos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Dispositivos/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Inicio/layaut.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Inicio/layaut.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tipoganado/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tipoganado/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tipoganado/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tipoganado/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tipoganado/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tipoganado/update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../localizadorapp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,17 +35,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Inicio/lau.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/resources/views/Inicio/layaut.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="209">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -53,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/js/components/scroll.js.php" />
         <option value="$PROJECT_DIR$/resources/js/components/scroll.js" />
         <option value="$PROJECT_DIR$/public/css/estilos.css" />
@@ -86,24 +107,25 @@
         <option value="$PROJECT_DIR$/app/Usuarios.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/DispositivosController.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Inicio/lau.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/Animales/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AnimalesController.php" />
-        <option value="$PROJECT_DIR$/resources/views/Animales/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Animales.php" />
-        <option value="$PROJECT_DIR$/resources/views/Animales/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Dispositivos/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Dispositivos/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Dispositivos/update.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/tipoganado/create.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AnimalesController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/Inicio/lau.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Animales/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Animales/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Animales/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Dispositivos/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Dispositivos/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tipoganado/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/tipoganado/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tipoganado/update.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Inicio/layaut.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
       </list>
     </option>
   </component>
@@ -203,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,6 +242,13 @@
               <item name="localizador" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="localizador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="localizador" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="localizador" type="b2602c69:ProjectViewProjectNode" />
@@ -248,19 +276,27 @@
             <path>
               <item name="localizador" type="b2602c69:ProjectViewProjectNode" />
               <item name="localizador" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="tipoganado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="localizador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="localizador" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../posts601Harlock-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -401,17 +437,23 @@
       <workItem from="1558528387941" duration="664000" />
       <workItem from="1558530787993" duration="144000" />
       <workItem from="1558531013080" duration="1069000" />
+      <workItem from="1558962072342" duration="718000" />
+      <workItem from="1558985797444" duration="357000" />
+      <workItem from="1559097768791" duration="1436000" />
+      <workItem from="1559100920638" duration="1756000" />
+      <workItem from="1559102782814" duration="1754000" />
+      <workItem from="1559104635598" duration="1743000" />
+      <workItem from="1559106440984" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143838000" />
+    <option name="totallyTimeSpent" value="151904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.29289705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.23383878" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.3048683" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -433,7 +475,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.2601756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.30726257" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.3048683" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -479,13 +521,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/usuarios/create.blade.php" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/web.config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -544,13 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TganadoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -617,30 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Animales/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Animales/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnimalesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Animales.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -648,57 +652,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Animales/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/verify.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Dispositivos/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Dispositivos/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Dispositivos/update.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tipoganado/update.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tipoganado/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tipoganado/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -717,20 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Inicio/lau.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Inicio/layaut.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -738,31 +679,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TganadoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnimalesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Animales/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Animales/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Animales/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Dispositivos/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Dispositivos/update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Dispositivos/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tipoganado/update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tipoganado/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tipoganado/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Inicio/lau.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Inicio/layaut.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
         </state>
       </provider>
     </entry>

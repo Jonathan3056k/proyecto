@@ -88,10 +88,10 @@ class AnimalesController extends Controller
          * @return \Illuminate\Http\Response
          */
         public
-        function update(Request $request, Animales $animal)
+        function update(Request $request, Animales $animale)
         {
             //
-            $animal->update($request->all());
+            $animale->update($request->all());
             return redirect("animales");
         }
 
