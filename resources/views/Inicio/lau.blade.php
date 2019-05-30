@@ -33,6 +33,7 @@
     <h1 id="color">Prototipo Localizador de ganado</h1>
 
     <ul class="nav justify-content-end">
+
         <li class="nav-item"><a href="{{url("/")}}" class="nav-link text-white"><i class="fa fa-arrow-alt-circle-left"></i> Regresar</a></li>
         <li class="nav-item"><a href="{{url("animales")}}" class="nav-link text-white"><i class="fa fa-horse"></i> Animales</a></li>
         <li class="nav-item"><a href="{{url("dispositivos")}}" class="nav-link text-white"><i class="fa fa-satellite-dish"></i> Dispositivos</a></li>

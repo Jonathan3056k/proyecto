@@ -4,11 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Animales;
 use App\Dispositivos;
-use App\Ganaderos;
 use App\Sexos;
 use App\Tganado;
 use App\User;
-use App\Usuarios;
+
 use Illuminate\Http\Request;
 
 class AnimalesController extends Controller

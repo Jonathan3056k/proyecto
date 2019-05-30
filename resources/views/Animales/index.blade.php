@@ -8,7 +8,9 @@
             <div class="card">
                 <div class="card-footer text-center">{{ __('Ganado') }}</div>
             </div>
+            @if(Auth::user()->id_tipousuario==2)
             <a class="btn btn-success" href="{{url("animales/create")}}"><i class="fa fa-plus"></i> Registrar Nuevo</a>
+            @endif
         </div>
     </div>
     <div class="row justify-content-md-end">
@@ -24,7 +26,9 @@
                     <th>Clave de animal</th>
                     <th>Peso</th>
                     <th>Edad</th>
+                    @if(Auth::user()->id_tipousuario==2)
                     <th colspan="2">Eliminar/Modificar</th>
+                        @endif
                 </tr>
                 </thead>
                 @foreach($animales as $animal)
@@ -38,6 +42,7 @@
                         <th>{{$animal->peso}} kg</th>
                         <th>{{$animal->edad}} años</th>
                         <td>
+                            @if(Auth::user()->id_tipousuario==2)
                             <form action="{{route("animales.destroy",$animal->id_animal)}}" method="post">
                                 @csrf
                                 @method("DELETE")
@@ -47,6 +52,7 @@
                         <td>
                             <a href="{{url("animales",$animal->id_animal)}}/edit" class="btn btn-outline-success"><i class="far fa-edit"></i> </a>
                         </td>
+                        @endif
                     </tr>
                     @endforeach
                     </tbody>

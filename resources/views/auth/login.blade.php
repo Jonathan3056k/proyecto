@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset("css/app.css")}}" type="text/css">
     <link rel="stylesheet" href="css/app.css" type="text/css">
-    <title>Document</title>
+    <title>Inicio Sesion</title>
 </head>
 <body>
 <div class="container">
@@ -54,7 +54,7 @@
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                     <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
+                                        {{ __('Recordar Contraseña') }}
                                     </label>
                                 </div>
                             </div>
