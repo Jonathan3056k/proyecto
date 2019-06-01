@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Tganado;
 use Illuminate\Http\Request;
+use Session;
+use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
 
 class TganadoController extends Controller
 {
@@ -41,10 +43,8 @@ class TganadoController extends Controller
     public function store(Request $request)
     {
         //
-        $tganado=array(
-            "desc_ganado"=>$request->desc_ganado,
-        );
-        Tganado::create($tganado);
+        Tganado::create($request->all());
+        Session::flash('save','El tipo de ganado: '.$request->desc_ganado.' ha sido Guardado de forma exitosa.');
         return redirect("tganado");
     }
 
@@ -82,6 +82,7 @@ class TganadoController extends Controller
     {
         //
         $tganado->update($request->all());
+        Session::flash('update','El tipo de ganado: '.$tganado->desc_ganado.' ha sido actualizado de forma exitosa.');
         return redirect("tganado");
     }
 
@@ -91,10 +92,12 @@ class TganadoController extends Controller
      * @param  \App\Tganado  $tganado
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Tganado $tganado)
+    public function destroy($id_tipoganado)
     {
         //
-        $tganado->delete();
+        $Tganado=Tganado::find($id_tipoganado);
+        $Tganado->delete();
+        Session::flash('delete','El tipo de ganado: '.$Tganado->desc_ganado.' ha sido eliminado de forma exitosa.');
         return redirect("tganado");
     }
 

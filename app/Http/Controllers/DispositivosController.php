@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Dispositivos;
 use Illuminate\Http\Request;
-
+use Session;
 class DispositivosController extends Controller
 {
     /**
@@ -39,11 +39,8 @@ class DispositivosController extends Controller
      */
     public function store(Request $request)
     {
-        //
-        $dispositivo=array(
-            "clave_dis"=>$request->clave_dis,
-        );
-        Dispositivos::create($dispositivo);
+        Dispositivos::create($request->all());
+        Session::flash('save','El Dispositivo: '.$request->clave_dis.' ha sido Registrado de forma exitosa.');
         return redirect("dispositivos");
     }
 
@@ -90,10 +87,12 @@ class DispositivosController extends Controller
      * @param  \App\Dispositivos  $dispositivos
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Dispositivos $dispositivo)
+    public function destroy($id_dispositivo)
     {
         //
+        $dispositivo=Dispositivos::find($id_dispositivo);
         $dispositivo->delete();
+        Session::flash('delete','El Dispositivo: '.$dispositivo->clave_dis.' ha sido eliminado de forma exitosa.');
         return redirect("dispositivos");
     }
 }

@@ -7,7 +7,7 @@ use App\Dispositivos;
 use App\Sexos;
 use App\Tganado;
 use App\User;
-
+use Session;
 use Illuminate\Http\Request;
 
 class AnimalesController extends Controller
@@ -48,6 +48,7 @@ class AnimalesController extends Controller
     {
         //
         Animales::create($request->all());
+        Session::flash('save','El animal con clave: '.$request->clave.' ha sido Guardado de forma exitosa.');
         return redirect("animales");
     }
 
@@ -91,6 +92,7 @@ class AnimalesController extends Controller
         {
             //
             $animale->update($request->all());
+            Session::flash('update','El animal con clave: '.$animale->clave.' ha sido Actualizado de forma exitosa.');
             return redirect("animales");
         }
 
@@ -101,9 +103,11 @@ class AnimalesController extends Controller
          * @return \Illuminate\Http\Response
          */
         public
-        function destroy(Animales $animale)
+        function destroy($id_animal)
         {
+            $animale=Animales::find($id_animal);
             $animale->delete();
+            Session::flash('delete','El animal con clave: '.$animale->clave.' ha sido eliminado de forma exitosa.');
             return redirect("animales");
         }
 

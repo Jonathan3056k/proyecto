@@ -5,52 +5,56 @@
 
     <div class="row justify-content-md-end">
         <div class="col">
-            <div class="card">
-                <div class="card-footer text-center">{{ __('Ganado') }}</div>
-            </div>
             @if(Auth::user()->id_tipousuario==2)
             <a class="btn btn-success" href="{{url("animales/create")}}"><i class="fa fa-plus"></i> Registrar Nuevo</a>
             @endif
         </div>
     </div>
     <div class="row justify-content-md-end">
-        <div class="col-10">
+        <div class="col">
+            @include('Animales.mensajes')
+            <div class="card">
+                <div class="card-footer text-center">{{ __('Ganado') }}</div>
+            </div>
+
             <table class="table">
                 <thead>
                 <tr>
-                    <th>No. Animal</th>
-                    <th>Ganadero</th>
-                    <th>Sexo</th>
-                    <th>Tipo de Ganado</th>
-                    <th>Dispositivo</th>
-                    <th>Clave de animal</th>
-                    <th>Peso</th>
-                    <th>Edad</th>
+                    <th class="table-active">No. Animal</th>
+                    <th class="table-active">Ganadero</th>
+                    <th class="table-active">Sexo</th>
+                    <th class="table-active">Tipo de Ganado</th>
+                    <th class="table-active">Dispositivo</th>
+                    <th class="table-active">Clave de animal</th>
+                    <th class="table-active">Peso</th>
+                    <th class="table-active">Edad</th>
                     @if(Auth::user()->id_tipousuario==2)
-                    <th colspan="2">Eliminar/Modificar</th>
+                    <th colspan="2" class="table-active">Eliminar/Modificar</th>
                         @endif
                 </tr>
                 </thead>
                 @foreach($animales as $animal)
                     <tr>
-                        <td>{{$animal->id_animal}}</td>
-                        <th>{{$animal->getUsuario[0]->name}}</th>
-                        <th>{{$animal->getSexos[0]->desc_sexo}}</th>
-                        <th>{{$animal->getTipoganado[0]->desc_ganado}}</th>
-                        <th>{{$animal->getDispositivo[0]->clave_dis}}</th>
-                        <td>{{$animal->clave}}</td>
-                        <th>{{$animal->peso}} kg</th>
-                        <th>{{$animal->edad}} años</th>
+                        <td class="table-success">{{$animal->id_animal}}</td>
+                        <th class="table-info">{{$animal->getUsuario[0]->name}}</th>
+                        <th class="table-info">{{$animal->getSexos[0]->desc_sexo}}</th>
+                        <th class="table-info">{{$animal->getTipoganado[0]->desc_ganado}}</th>
+                        <th class="table-info">{{$animal->getDispositivo[0]->clave_dis}}</th>
+                        <td class="table-info">{{$animal->clave}}</td>
+                        <th class="table-info">{{$animal->peso}} kg</th>
+                        <th class="table-info">{{$animal->edad}} años</th>
                         <td>
                             @if(Auth::user()->id_tipousuario==2)
-                            <form action="{{route("animales.destroy",$animal->id_animal)}}" method="post">
+                            <form action="{{route("animales.destroy",$animal->id_animal)}}" method="post" onclick=
+                            "return confirm('¿Desea Eliminar Registro?')">
                                 @csrf
                                 @method("DELETE")
                                 <button class="btn btn-outline-danger"><i class="far fa-trash-alt"></i></button>
                             </form>
                         </td>
                         <td>
-                            <a href="{{url("animales",$animal->id_animal)}}/edit" class="btn btn-outline-success"><i class="far fa-edit"></i> </a>
+                            <a href="{{url("animales",$animal->id_animal)}}/edit" class="btn btn-outline-success" onclick=
+                            "return confirm('¿Desea Modificar Registro?')""><i class="far fa-edit"></i> </a>
                         </td>
                         @endif
                     </tr>
