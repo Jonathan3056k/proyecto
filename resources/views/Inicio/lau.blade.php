@@ -21,7 +21,7 @@
             color: white;
             text-align : center;
             font-family: Dyuthi;
-            font-size : 35pt;
+            font-size : 30pt;
 
 
         }

@@ -26,6 +26,9 @@
             font-family: Dyuthi;
             font-size : 35pt;
         }
+        #slider{
+
+        }
     </style>
 
 </head>
@@ -80,11 +83,11 @@
 </header>
 
 
-<div class="slider">
+<div class="slider" >
     <ul>
-        <li> <img src="css/img1.jpg" alt=""> </li>
-        <li> <img src="css/img2.jpg" alt=""> </li>
-        <li> <img src="css/img3.jpg" alt=""> </li>
+        <li> <img src="css/img1.jpg"  height="500px"> </li>
+        <li> <img src="css/img2.jpg"  height="500px"> </li>
+        <li> <img src="css/img3.jpg"  height="500px"> </li>
     </ul>
 
 </div>
@@ -97,7 +100,7 @@
     @yield("content")
 </main>
 <footer id="cabe" class="">
-    <div style="color: darkblue" align="center">Elaborado por Alumnos del TESVB de Valle de Bravo </div>
+    <div style="color" align="center">Elaborado por Alumnos del TESVB de Valle de Bravo </div>
 </footer>
 </body>
 </html>

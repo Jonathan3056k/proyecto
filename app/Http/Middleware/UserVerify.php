@@ -16,13 +16,12 @@ class UserVerify
      */
     public function handle($request, Closure $next)
     {
-        if(Auth::user()->id_tipousuario!=2)
+        if(Auth::user()->id_tipo!=2)
             return redirect("home");
 
-
-        // php artisan make:middleware UserVerify
-        if(Auth::user()->id_tipousuario!=1)
+        if(Auth::user()->id_tipo!=1)
             return redirect("home");
+
         return $next($request);
     }
 }
